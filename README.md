@@ -23,7 +23,7 @@ Estudante de **Engenharia de Software** na UniFil (Londrina/PR), com formação 
 
 Meu foco é **backend, automação inteligente e integração de sistemas**: transformar processos manuais e repetitivos em fluxos automatizados e confiáveis, usando APIs REST, webhooks, orquestração com N8N e agentes de IA.
 
-- Construindo projetos que unem **N8N + Python + LLMs** para automação de processos ponta a ponta
+- Construindo pipelines que unem **Python + LLMs + N8N** para automação de processos ponta a ponta
 - Aprofundando em **Java / Spring Boot** e arquitetura de APIs
 - Estudando **Cloud AWS** — Lambda, ECS e Bedrock
 - Aberto a oportunidades de **estágio e júnior** em backend, automação e agentes de IA
@@ -67,6 +67,10 @@ Meu foco é **backend, automação inteligente e integração de sistemas**: tra
 ---
 
 ### Projetos em destaque
+
+**[NotaFlow](https://github.com/pikachuzinn/notaflow)** — `Python` `LLM` `PostgreSQL` `Docker` `Google Drive`
+
+Extração de dados de notas fiscais brasileiras com LLM, em produção de ponta a ponta: ingestão por Google Drive ou pasta local atrás de uma mesma interface, extração com *tool use*, validação Pydantic **antes** de gravar e retentativa corretiva que devolve o erro ao modelo — com teto separado para falha de leitura da chave de acesso. Documento reprovado vai para revisão manual com aviso por e-mail em vez de entrar sujo no banco. Idempotência, migrations versionadas, base sintética para medir o acerto da extração, testes e CI.
 
 **[Dragon Ball Z API](https://github.com/pikachuzinn/trabalho-api-full)** — `Node.js` `Express` `SQLite` `JWT` `Jest`
 
