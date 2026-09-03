@@ -72,6 +72,10 @@ Meu foco é **backend, automação inteligente e integração de sistemas**: tra
 
 Extração de dados de notas fiscais brasileiras com LLM, em produção de ponta a ponta: ingestão por Google Drive ou pasta local atrás de uma mesma interface, extração com *tool use*, validação Pydantic **antes** de gravar e retentativa corretiva que devolve o erro ao modelo — com teto separado para falha de leitura da chave de acesso. Documento reprovado vai para revisão manual com aviso por e-mail em vez de entrar sujo no banco. Idempotência, migrations versionadas, base sintética para medir o acerto da extração, testes e CI.
 
+**[Radar de Provedores](https://github.com/pikachuzinn/radar-provedores)** — `Python` `Google Places API` `tkinter` `pytest`
+
+Ferramenta de análise de viabilidade que mapeia provedores de internet numa região via Google Places API, com interface gráfica e CLI. Mede a sobreposição entre os termos de busca e recomenda, por cobertura, o menor conjunto que reproduz o mesmo resultado — calibrado em várias cidades para não generalizar a partir de uma só. Cache local, deduplicação por `place_id`, exportação CSV/Excel e filtro de log que mascara a chave de API. 231 testes, nenhum deles usando rede ou chave real.
+
 **[Dragon Ball Z API](https://github.com/pikachuzinn/trabalho-api-full)** — `Node.js` `Express` `SQLite` `JWT` `Jest`
 
 API REST completa com autenticação JWT, CRUD de três entidades relacionadas, filtros, paginação e ordenação. Inclui suíte de testes automatizados (Jest + Supertest), tratamento global de erros, collection Postman e configuração de deploy.
