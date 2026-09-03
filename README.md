@@ -82,15 +82,6 @@ Conversão manual de decimal para ponto flutuante de precisão simples (32 bits)
 
 ---
 
-### GitHub
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=pikachuzinn&show_icons=true&hide_border=true&title_color=0A66C2&icon_color=0A66C2&count_private=true&include_all_commits=true&locale=pt-br" alt="Estatísticas do GitHub">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pikachuzinn&layout=compact&hide_border=true&title_color=0A66C2&langs_count=8&locale=pt-br" alt="Linguagens mais usadas">
-</p>
-
----
-
 ### Contato
 
 Aberto a conversas sobre **estágio, vagas júnior e projetos de automação**.
