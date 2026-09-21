@@ -24,7 +24,7 @@ Estudante de **Engenharia de Software** na UniFil (Londrina/PR), com formação 
 Meu foco é **backend, automação inteligente e integração de sistemas**: transformar processos manuais e repetitivos em fluxos automatizados e confiáveis, usando APIs REST, webhooks, orquestração com N8N e agentes de IA.
 
 - Construindo pipelines que unem **Python + LLMs + N8N** para automação de processos ponta a ponta
-- Aprofundando em **Java / Spring Boot** e arquitetura de APIs
+- Trabalhando com **Java 21 / Spring Boot** e modelagem de domínio orientada a objetos
 - Estudando **Cloud AWS** — Lambda, ECS e Bedrock
 - Aberto a oportunidades de **estágio e júnior** em backend, automação e agentes de IA
 
@@ -68,6 +68,10 @@ Meu foco é **backend, automação inteligente e integração de sistemas**: tra
 
 ### Projetos em destaque
 
+**[E-commerce Orders API](https://github.com/pikachuzinn/ecommerce-api)** — `Java 21` `Spring Boot 4` `PostgreSQL` `Flyway` `Testcontainers`
+
+API REST de catálogo e pedidos construída em torno das regras que um e-commerce precisa acertar, e não em torno do CRUD: reserva de estoque sob concorrência com lock pessimista e `@Version`, preço congelado no momento da compra, máquina de estados do pedido sem `if` espalhado, e autorização por papel **e** por dono do recurso. O valor cobrado é sempre calculado no servidor, nunca enviado pelo cliente. Schema versionado com Flyway e `ddl-auto: validate`, testes de integração contra PostgreSQL real via Testcontainers, JWT stateless, OpenAPI e CI no GitHub Actions.
+
 **[NotaFlow](https://github.com/pikachuzinn/notaflow)** — `Python` `LLM` `PostgreSQL` `Docker` `Google Drive`
 
 Extração de dados de notas fiscais brasileiras com LLM, em produção de ponta a ponta: ingestão por Google Drive ou pasta local atrás de uma mesma interface, extração com *tool use*, validação Pydantic **antes** de gravar e retentativa corretiva que devolve o erro ao modelo — com teto separado para falha de leitura da chave de acesso. Documento reprovado vai para revisão manual com aviso por e-mail em vez de entrar sujo no banco. Idempotência, migrations versionadas, base sintética para medir o acerto da extração, testes e CI.
@@ -83,10 +87,6 @@ API REST completa com autenticação JWT, CRUD de três entidades relacionadas, 
 **[Desafio Brasilis](https://github.com/pikachuzinn/Brasilis)** — `Godot 4` `GDScript` `Playwright`
 
 Quiz educativo sobre cultura, história e geografia do Brasil, desenvolvido como Projeto de Extensão da UniFil. Estado centralizado em singleton, persistência local e duas suítes de testes headless — incluindo validação de clique real no viewport e playthrough automatizado do build web.
-
-**[Calculadora IEEE 754](https://github.com/pikachuzinn/calculadora-ieee754)** — `JavaScript` `Node.js`
-
-Conversão manual de decimal para ponto flutuante de precisão simples (32 bits), sem bibliotecas externas. Implementa arredondamento *round-to-even*, tratamento de NaN e infinitos, e análise de erro absoluto e relativo comparando float32 com float64 nativo.
 
 ---
 
