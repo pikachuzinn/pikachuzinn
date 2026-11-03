@@ -1,8 +1,8 @@
 <h1 align="center">Henan Heiiji Shirahige</h1>
 
 <p align="center">
-  <strong>Backend &amp; Automação Inteligente</strong><br>
-  APIs REST, integração de sistemas e agentes de IA aplicados a processos reais de negócio.
+  <strong>Back-end &amp; IA aplicada</strong><br>
+  APIs, integrações e LLMs em produção, em Python e Java.
 </p>
 
 <p align="center">
@@ -25,6 +25,7 @@ Meu foco é **backend, automação inteligente e integração de sistemas**: tra
 
 - Construindo pipelines que unem **Python + LLMs + N8N** para automação de processos ponta a ponta
 - Trabalhando com **Java 21 / Spring Boot** e modelagem de domínio orientada a objetos
+- Aprofundando **Python para IA**: funcionamento de LLMs, engenharia de prompts, agentes e visão computacional (NumPy, OpenCV)
 - Estudando **Cloud AWS** — Lambda, ECS e Bedrock
 - Aberto a oportunidades de **estágio e júnior** em backend, automação e agentes de IA
 
@@ -51,6 +52,14 @@ Meu foco é **backend, automação inteligente e integração de sistemas**: tra
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
   <img src="https://img.shields.io/badge/REST%20APIs-005571?style=flat-square&logo=fastapi&logoColor=white" alt="REST APIs">
   <img src="https://img.shields.io/badge/AI%20Agents-412991?style=flat-square&logo=openai&logoColor=white" alt="AI Agents">
+</p>
+
+**IA**
+
+<p>
+  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
 </p>
 
 **Dados &amp; Infra**
